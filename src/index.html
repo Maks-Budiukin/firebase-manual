@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase Manual</title>
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
+  <body>
+    <div class="section">
+      <p class="section__title">
+        ***AUTH SECTION***
+      </p>
+      <p id="hello" class="curr">NO ACTIVE USER</p>
+      <div class="input">EMAIL: <input type="email" id="email"></div>
+      <div class="input">PASSWORD: <input type="password" id="password"></div>
+      
+      <div class="buttons">
+        <button id="signUp">SIGN UP</button>
+        <button id="signIn">SIGN IN</button>
+        <button id="signOut">SIGN OUT</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <p class="section__title">***SEND DATA SECTION***</p>
+    <div class="input">ID: <input type="number" id="id"></div>
+    <div class="input">IMAGE: <input type="text" id="image"></div>
+    <div class="input">DESCRIPTION: <input type="text" id="description"></div>
+      <div class="buttons">
+    <button id="sendData">SEND DATA</button>
+        </div>
+    </div>
+
+    <div class="section">
+      <p class="section__title">***GET DATA SECTION***</p>
+      
+      <div class="buttons">
+        <button id="getData">GET DATA</button>
+      </div>
+    </div>
+
+ <script src="./index.js" type="module"></script>
+  </body>
+</html>
